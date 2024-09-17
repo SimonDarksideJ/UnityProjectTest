@@ -33,9 +33,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: windows-latest
+          - os: buildalon-windows
             build-target: Android
-          - os: macos-13
+          - os: buildalon-macos
             build-target: iOS
 
     steps:
